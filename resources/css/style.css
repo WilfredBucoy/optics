@@ -1,0 +1,183 @@
+/* CSS Document */
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: helvetica, sans-serif;
+}
+
+div {
+  border: thin;
+  border-color: yellow;
+  border-style: dotted;
+}
+
+.blue {
+  background-color: cadetblue;
+}
+
+.largeFont {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.boldFont {
+  font-weight: bold;
+}
+
+.containterBG {
+  background-image: url(../glasses-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+}
+#container {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: silver;
+}
+
+#banner {
+  display: flex;
+  width: 960px;
+  height: 100%;
+  height: 31rem;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+.quote {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin-top: 14rem;
+}
+
+#header {
+  display: flex;
+  position: fixed;
+  justify-content:flex-start;
+  align-content: center;
+  align-items: center;
+  width: 960px;
+  background-color: cadetblue;
+  height: 3rem;
+  margin-top: 1rem;
+}
+
+#logo {
+  display: inline-flex;
+  width: 100%;
+}
+
+.logo {
+  background-repeat: no-repeat;
+  height: 1.5rem;
+  width: auto;
+  padding: .75rem 1rem .75rem 2rem;
+}
+
+#logo span {
+  padding: 1rem 0 1rem 0;
+  font-size: 1rem;
+  color: white;
+  margin-left: 1rem;
+  line-height: 1rem;
+  width: 100%;
+}
+
+#nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: center;
+  height: 100%;
+  width:100%;
+  line-height: 1rem;
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+#nav span {
+  padding: 1rem 2rem 1rem 0;
+  line-height: 1rem;
+  color: white;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+#services {
+  display: flex;
+  flex-basis: 960px;
+  position: absolute;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  height: 8rem;
+  margin: 3rem 0;
+  top: 31rem;
+}
+
+.exams {
+  background-image: url(../paper-icon.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  
+}
+
+.imageBox {
+  display: block;
+  height: 5rem;
+  wdith: 3.5rem;
+  margin: 0 3rem;
+  border-bottom-color: tomato;
+  border-bottom-style: dotted;
+  border: thick;
+}
+
+.servicesBox {
+  display: flex;
+  flex-direction: row;
+  height: 8rem;
+  width: 12rem;
+
+}
+
+.fittings {
+  width: 5rem;
+  height: auto;
+  
+  margin: 0 3rem;
+  top: 0;
+
+}
+
+#delivery {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.delivery {
+  width: 5rem;
+  margin: 0 3rem;
+}
+
+.services {
+  display: block;
+  width: 7rem;
+  height: 3rem;
+  font-size: 1rem;
+}
